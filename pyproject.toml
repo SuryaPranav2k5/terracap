@@ -1,0 +1,16 @@
+[project]
+name = "image-recognition"
+version = "0.1.0"
+description = "NWPU-Caption remote sensing image recognition and captioning benchmark"
+readme = "README.md"
+authors = [
+    { name = "Surya Pranav", email = "pranavsurya123@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "datasets>=5.1.0",
+    "pillow>=13.0.0",
+]
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"

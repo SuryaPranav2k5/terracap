@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.pytest_cache/
+.coverage
+
+# Virtual environments
+.venv/
+
+# Dataset large binaries & extracted assets (tracked via scripts)
+dataset/images/
+dataset/hf/
+dataset/dataset_nwpu.json
+!dataset/README.md
+
+# OS specific files
+.DS_Store
+Thumbs.db

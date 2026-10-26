@@ -1,0 +1,65 @@
+[
+  {
+    "removed_image": "airport/airport_420.jpg",
+    "canonical_image": "airport/airport_050.jpg",
+    "split": "train",
+    "reason": "within-split exact byte duplicate in train",
+    "type": "exact_sha256"
+  },
+  {
+    "removed_image": "airport/airport_527.jpg",
+    "canonical_image": "airport/airport_064.jpg",
+    "split": "train",
+    "reason": "within-split exact byte duplicate in train",
+    "type": "exact_sha256"
+  },
+  {
+    "removed_image": "airport/airport_315.jpg",
+    "canonical_image": "airport/airport_118.jpg",
+    "split": "train",
+    "reason": "within-split exact byte duplicate in train",
+    "type": "exact_sha256"
+  },
+  {
+    "removed_image": "airport/airport_397.jpg",
+    "canonical_image": "airport/airport_243.jpg",
+    "split": "train",
+    "reason": "within-split exact byte duplicate in train",
+    "type": "exact_sha256"
+  },
+  {
+    "removed_image": "airport/airport_509.jpg",
+    "canonical_image": "airport/airport_361.jpg",
+    "split": "train",
+    "reason": "within-split exact byte duplicate in train",
+    "type": "exact_sha256"
+  },
+  {
+    "removed_image": "palace/palace_439.jpg",
+    "canonical_image": "palace/palace_224.jpg",
+    "split": "train",
+    "reason": "within-split exact byte duplicate in train",
+    "type": "exact_sha256"
+  },
+  {
+    "removed_image": "mountain/mountain_324.jpg",
+    "canonical_image": "mountain/mountain_111.jpg",
+    "split": "train",
+    "reason": "within-split perceptual duplicate in train (differed by 9 bytes JPEG encoding, MAE=0.034)",
+    "type": "perceptual_dhash_distance_0"
+  },
+  {
+    "removed_image": "airport/airport_635.jpg",
+    "canonical_image": "airport/airport_289.jpg",
+    "split": "test",
+    "reason": "cross-split leakage from train (removed from test)",
+    "type": "cross_split_leakage_resolution"
+  },
+  {
+    "removed_image": "palace/palace_669.jpg",
+    "canonical_image": "palace/palace_595.jpg",
+    "split": "test",
+    "reason": "cross-split leakage from val (removed from test)",
+    "type": "cross_split_leakage_resolution"
+  }
+]
