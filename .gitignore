@@ -17,6 +17,13 @@ dataset/hf/
 dataset/dataset_nwpu.json
 !dataset/README.md
 
+# Model weights & Checkpoints
+checkpoints/
+*.pt
+
+# Large archives
+*.zip
+
 # OS specific files
 .DS_Store
 Thumbs.db
