@@ -21,6 +21,13 @@ dataset/dataset_nwpu.json
 checkpoints/
 *.pt
 
+# Web frontend dependencies & build
+web/node_modules/
+web/.next/
+web/upload/
+*.pid
+*.log
+
 # Large archives
 *.zip
 
